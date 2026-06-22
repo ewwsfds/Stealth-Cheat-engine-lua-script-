@@ -155,7 +155,7 @@ function renameComponents(c)
     elseif c.Caption == "Debugger method" then
       c.Caption='dbg method'
     elseif c.Caption == "Use VEH Debugger" then
-      c.Caption='Use VEH dbg'
+      c.Caption='Use VH dbg'
     elseif c.Caption == "Use windows debugger" then
       c.Caption='windbg'
     elseif c.Caption == "Use kernelmode debugger (Requires DBVM)" then
