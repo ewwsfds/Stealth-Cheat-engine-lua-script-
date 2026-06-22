@@ -51,7 +51,7 @@ Inside the program:
 
 ---
 
-## Final step: Rename Project Folders (Stealth Step)
+## Final step: Rename Project Folders
 
-- Rename every folder that is "cheat engine" to something else the main folder
+- Rename every folder that is "cheat engine" to something else 
 
