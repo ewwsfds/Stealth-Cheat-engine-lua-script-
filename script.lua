@@ -148,6 +148,24 @@ function renameComponents(c)
       c.Caption='Page exceptions (Extremely slow to unplayable, buggy, best used if nothing else works. Does not use dbg rgstr)'
     elseif c.Caption == "Query Mem region routines" then
       c.Caption='Re/Wr PRoccss Mem'
+    elseif c.Caption == "Override existing breakpoints when setting breakpoints" then
+      c.Caption='Override existing brkpnts when setting brkpnts'
+    elseif c.Caption == "Size of stack to record on \"Find what ... routines\"" then
+      c.Caption='Size of stack to record on "Find what ... routines"'
+    elseif c.Caption == "Debugger method" then
+      c.Caption='dbg method'
+    elseif c.Caption == "Use VEH Debugger" then
+      c.Caption='Use VEH dbg'
+    elseif c.Caption == "Use windows debugger" then
+      c.Caption='windbg'
+    elseif c.Caption == "Use kernelmode debugger (Requires DBVM)" then
+      c.Caption='Use krnlmd dbg (Requires DBVM)'
+    elseif c.Caption == "Use DBVM-level debugger" then
+      c.Caption='Use DBVM-level dbg'
+    elseif c.Caption == "kernel" then
+      c.Caption='krnlLevel'
+    elseif c.Caption == "kernelmode" then
+      c.Caption='krnlmd'
     end
   end
 end
