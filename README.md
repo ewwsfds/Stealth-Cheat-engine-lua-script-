@@ -51,7 +51,7 @@ axmed-x86_64-SSE4-AVX2.vmp.exe
 Inside the program:
 
 1. Go to **Memory View**
-2. Open **Tools**
+2. Open **Tools** or **ctrl+L**
 3. Click **Lua Engine**
 4. Paste the code from `script.lua`
 
